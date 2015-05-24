@@ -17,14 +17,14 @@ Accuracy: 0.84856	Precision: 0.65145	Recall: 0.68500	F1: 0.66780	F2: 0.67802  To
 
 ##Python files includes:
 
-poi_feature_selection            feature slection process 
+ feature slection process:  poi_feature_selection.py           
 
-poi_classfier_selection.py       algorithm slection process 
+ algorithm slection process:  poi_classfier_selection.py      
 
-poi_outlier_removal.py           outlier detection and removal
+ outlier detection and removal: poi_outlier_removal.py          
 
-poi_classfier_tuning.py          classifer parameters tuning
+classifer parameters tuning: poi_classfier_tuning.py          
 
-poi_classfier_tuning_loops       classifer parameters finer tuning
+classifer parameters finer tuning: poi_classfier_tuning_loops       
 
-poi_id.py                        main program to show case
+ main program to showcase: poi_id.py                       
