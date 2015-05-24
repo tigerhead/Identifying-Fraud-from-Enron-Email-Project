@@ -16,9 +16,15 @@ DecisionTreeClassifier(compute_importances=None, criterion='gini',       max_dep
 Accuracy: 0.84856	Precision: 0.65145	Recall: 0.68500	F1: 0.66780	F2: 0.67802  Total predictions: 9000	True positives: 1370	False positives:  733	False negatives:  630 True negatives: 6267
 
 ##Python files includes:
+
 poi_feature_selection            feature slection process 
+
 poi_classfier_selection.py       algorithm slection process 
+
 poi_outlier_removal.py           outlier detection and removal
+
 poi_classfier_tuning.py          classifer parameters tuning
+
 poi_classfier_tuning_loops       classifer parameters finer tuning
+
 poi_id.py                        main program to show case
