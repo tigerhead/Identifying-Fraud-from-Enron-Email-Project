@@ -4,8 +4,11 @@
 
 ##New Features Added:
 salary_total_pay_ratio = salary/total_payments
+
 from_pio_ratio = from_poi_to_this_person/from_messages
-to_pio_ratio = from_this_person_to_poi/to_messages  
+
+to_pio_ratio = from_this_person_to_poi/to_messages 
+
 total_stock_exstock_ratio = exercised_stock_options/total_stock_value
 
 ##Feature selected
