@@ -63,6 +63,8 @@ def explore_dataset(data_dict):
 #explore dataset
 def clean_dataset(data_dict):    
     #List of features which is number type
+    num_features = len(data_dict[data_dict.keys()[0]]) 
+    threshold_nan = num_features - 3
     feature_in_num = ['salary', 'to_messages', 'deferral_payments', 
                       'exercised_stock_options', 'total_payments', 
                       'bonus', 'restricted_stock', 'shared_receipt_with_poi', 
@@ -74,12 +76,18 @@ def clean_dataset(data_dict):
 
     
      
-    #set NaN value to 0
-    for name in data_dict.keys():        
+    #set NaN value to 0 and detect if a data point has too many Nans
+    
+    for name in data_dict.keys():  
+        counter_NaN = 0      
         for key in data_dict[name].keys():
             if str(data_dict[name][key]) == 'NaN':
-                data_dict[name][key] = 0       
-           
+                data_dict[name][key] = 0
+                counter_NaN += 1
+        if counter_NaN >= threshold_nan:
+            print "Too many NaNs data point: ", name  
+                     
+        
             
     
     #Total payment is a critical financial data, try to calculate total payment if it is zero after replacing NaN with zero

@@ -1,0 +1,16 @@
+
+1. http://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html#sklearn.tree.DecisionTreeClassifier
+2. http://scikit-learn.org/stable/modules/svm.html
+3. http://scikit-learn.org/stable/modules/neighbors.html
+4. http://scikit-learn.org/stable/modules/ensemble.html
+5. http://scikit-learn.org/stable/modules/generated/sklearn.grid_search.GridSearchCV.html#sklearn.grid_search.GridSearchCV
+6. http://scikit-learn.org/stable/auto_examples/plot_digits_pipe.html
+7. http://scikit-learn.org/stable/modules/cross_validation.html
+8. http://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html
+9. http://scikit-learn.org/stable/modules/generated/sklearn.pipeline.Pipeline.html
+10. http://stackoverflow.com/questions/18172851/deleting-dataframe-row-in-pandas-based-on-column-value
+11. http://stackoverflow.com/questions/16096627/pandas-select-row-of-data-frame-by-integer-index
+12. http://stackoverflow.com/questions/15436367/svm-scaling-input-values
+13. http://en.wikipedia.org/wiki/Enron
+14. http://en.wikipedia.org/wiki/Precision_and_recall
+15. https://github.com/j450h1/Project-4-Identifying-Fraud-from-Enron-Email
