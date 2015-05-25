@@ -1,0 +1,30 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	new file:   Identifying Fraud from Enron Email Project_ MLai.pdf
+#	new file:   enron61702insiderpay.pdf
+#	new file:   final_project_dataset.pkl
+#	new file:   final_project_dataset_modified.pkl
+#	new file:   my_classifier.pkl
+#	new file:   my_dataset.pkl
+#	new file:   my_feature_list.pkl
+#	new file:   poi_classfier_selection.py
+#	new file:   poi_classfier_tuning.py
+#	new file:   poi_classfier_tuning_loops.py
+#	new file:   poi_email_addresses.py
+#	new file:   poi_feature_selection.py
+#	new file:   poi_feature_selection.pyc
+#	new file:   poi_id.py
+#	new file:   poi_names.txt
+#	new file:   poi_outlier_removal.py
+#	new file:   poi_outlier_removal.pyc
+#	new file:   tester.py
+#
+# Untracked files:
+#	igngw2ad.i1u.txt
+#
+
